@@ -29,7 +29,13 @@ public class enctyption_arr {
     }
 
     public static int [] decode(int pwd) {
-        int[] pwd2 = new int[4];
+        int count = 0;
+        int temp = pwd;
+        while(temp!=0){
+            temp/=10;
+            count++;
+        }
+        int[] pwd2 = new int[count];
         int i = 0;
         while(pwd!=0){
             pwd2[i] = pwd%10-5;
