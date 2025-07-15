@@ -5,7 +5,6 @@ import java.util.Random;
 public class Role {
     private String name;
     private int hp;
-
     public Role() {
     }
 
