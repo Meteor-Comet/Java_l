@@ -51,7 +51,13 @@ public class Role {
 
     public void attack(Role role) {
         Random rand = new Random();
-        role.setHp(role.getHp() - rand.nextInt(20)+1);
-        System.out.println(this.name + "攻击了" + role.getName() + "，" + role.getName() + "剩余" + role.getHp() + "点血");
+        int hurt = rand.nextInt(20)+1;
+        role.setHp(role.getHp() - hurt);
+        if (role.getHp() <= 0){
+            role.setHp(0);
+            System.out.println(role.getName() + "被K.O");
+            return;
+        }
+        System.out.println(this.name + "攻击了" + role.getName() + "，造成了"+ hurt +"点伤害, "+ role.getName() + "剩余" + role.getHp() + "点血");
     }
 }
