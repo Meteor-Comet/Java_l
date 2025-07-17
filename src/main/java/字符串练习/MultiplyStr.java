@@ -2,7 +2,7 @@ package 字符串练习;
 
 public class MultiplyStr {
     public static void main(String[] args) {
-        String a = "123";
+        String a = "12333";
         String b = "45678";
         int a1 = trans(a);
         int b1 = trans(b);
