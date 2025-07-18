@@ -1,4 +1,9 @@
 package extenddemo;
 
-public class Dog {
+public class Dog extends Animal{
+
+    public void lookHome()
+    {
+        System.out.println("lookHome");
+    }
 }
