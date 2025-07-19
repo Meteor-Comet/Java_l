@@ -1,4 +1,4 @@
-package extenddemo;
+package 继承;
 
 public class Animal {
     public void eat()
