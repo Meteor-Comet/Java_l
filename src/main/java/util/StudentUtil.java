@@ -1,6 +1,6 @@
 package util;
 
-import staticdemo.Student;
+import 静态.Student;
 
 import java.util.ArrayList;
 
