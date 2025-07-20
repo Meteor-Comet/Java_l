@@ -1,4 +1,4 @@
-package questions;
+package com.questions.question1;
 
 public class prime_num {
     public static void main(String[] args) {

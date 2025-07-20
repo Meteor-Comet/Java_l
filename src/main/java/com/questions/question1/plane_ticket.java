@@ -1,4 +1,4 @@
-package questions;
+package com.questions.question1;
 import java.util.Scanner;
 
 public class plane_ticket {

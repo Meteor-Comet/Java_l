@@ -1,4 +1,4 @@
-package questions;
+package com.questions.question1;
 
 public class arr_2d {
     public static void main(String[] args) {

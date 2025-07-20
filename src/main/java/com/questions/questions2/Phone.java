@@ -1,23 +1,14 @@
-package questions2;
+package com.questions.questions2;
 
-import java.util.Scanner;
-
-public class Car {
+public class Phone {
     private String brand;
     private int price;
     private String color;
 
-    public Car() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("请输入汽车品牌：");
-        this.brand = sc.next();
-        System.out.print("请输入汽车价格：");
-        this.price = sc.nextInt();
-        System.out.print("请输入汽车颜色：");
-        this.color = sc.next();
+    public Phone() {
     }
 
-    public Car(String brand, int price, String color) {
+    public Phone(String brand, int price, String color) {
         this.brand = brand;
         this.price = price;
         this.color = color;
@@ -72,6 +63,6 @@ public class Car {
     }
 
     public String toString() {
-        return "Car{brand = " + brand + ", price = " + price + ", color = " + color + "}";
+        return "Phone{brand = " + brand + ", price = " + price + ", color = " + color + "}";
     }
 }

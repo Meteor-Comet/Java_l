@@ -1,4 +1,4 @@
-package questions2;
+package com.questions.questions2;
 
 public class PhoneTest {
     public static void main(String[] args) {

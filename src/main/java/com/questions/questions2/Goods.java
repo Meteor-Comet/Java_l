@@ -1,4 +1,4 @@
-package questions2;
+package com.questions.questions2;
 
 public class Goods {
     private String id;
