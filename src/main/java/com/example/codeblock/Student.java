@@ -1,4 +1,4 @@
-package com.examlpe.codeblock;
+package com.example.codeblock;
 
 public class Student {
     private String name;

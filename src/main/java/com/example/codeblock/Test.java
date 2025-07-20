@@ -1,4 +1,4 @@
-package com.examlpe.codeblock;
+package com.example.codeblock;
 
 public class Test {
     public static void main(String[] args) {
