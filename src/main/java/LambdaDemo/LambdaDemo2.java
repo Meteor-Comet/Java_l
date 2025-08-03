@@ -22,7 +22,7 @@ public class LambdaDemo2 {
         
         // forEach遍历
         System.out.println("遍历集合:");
-        list.forEach(System.out::println);
+        list.forEach(s -> System.out.println(s));
         
         // filter过滤
         System.out.println("\n长度大于5的水果:");
