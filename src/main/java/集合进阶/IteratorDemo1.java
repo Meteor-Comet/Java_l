@@ -16,7 +16,13 @@ public class IteratorDemo1 {
         for (String s : c) {
             System.out.println(s);
         }
-
+        System.out.println("===================");
         c.forEach(System.out::println);
+        System.out.println("===================");
+        Iterator<String> it = c.iterator();
+        while (it.hasNext()) {
+            String s = it.next();
+            System.out.println(s);
+        }
     }
 }
