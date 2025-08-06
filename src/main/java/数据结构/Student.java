@@ -70,6 +70,9 @@ public class Student implements Comparable<Student> {
     public int compareTo(Student other) {
         // 主要条件：按年龄排序
         int ageCompare = Integer.compare(this.age, other.age);
+        System.out.println("this: " + this);
+        System.out.println("other: " + other);
+        System.out.println("============");
         if (ageCompare != 0) {
             return ageCompare;
         }
