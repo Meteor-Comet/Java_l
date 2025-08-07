@@ -1,4 +1,4 @@
-package 数据结构;
+package 数据结构.Set;
 
 import java.util.TreeSet;
 

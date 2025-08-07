@@ -1,7 +1,6 @@
-package 数据结构;
+package 数据结构.Set;
 
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 
 public class SetDemo1 {
