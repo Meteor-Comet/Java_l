@@ -1,6 +1,7 @@
 package 数据结构.Map;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class MapDemo1 {
@@ -21,5 +22,11 @@ public class MapDemo1 {
         for (String key : map.keySet()){
             System.out.println(key+"--->"+map.get(key));
         }
+        Iterator<String> iterator = map.keySet().iterator();
+        while (iterator.hasNext()){
+            String key = iterator.next();
+            System.out.println(key+"--->"+map.get(key));
+        }
+        map.keySet().forEach(key-> System.out.println(key+"--->"+map.get(key)));
     }
 }
