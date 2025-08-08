@@ -9,8 +9,8 @@ public class StreamDemo1 {
         list.add("张无忌");
         list.add("周芷若");
         list.add("赵敏");
-
-        list.stream().filter(s -> s.startsWith("张")).forEach(System.out::println);
+        list.add("张三");
+        list.stream().filter(s -> s.startsWith("张")).filter(s -> s.length() == 3).forEach(System.out::println);
 
     }
 }
